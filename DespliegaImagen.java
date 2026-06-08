@@ -6,11 +6,12 @@ import java.awt.Toolkit;
 
 public class DespliegaImagen extends JFrame {
 
+    //declaración de la imagen (variable imagen)
 Image miImagen;
-
+    
 public DespliegaImagen() {
     setTitle("Despliega Imagen SENA");
-    setSize (350, 370);
+    setSize (475, 400);
     setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     setLocationRelativeTo(null);
 
@@ -35,7 +36,7 @@ public static void main (String[] args) {
             DespliegaImagen ventana = new DespliegaImagen();
             ventana.setVisible(true);
         });
-}
+    }
 
 }
 
